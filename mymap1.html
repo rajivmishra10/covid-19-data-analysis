@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b9fa23175e6c4774b3cb06191bb89c2d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_b9fa23175e6c4774b3cb06191bb89c2d" ></div>
+        
+</body>
+<script>    
+    
+            var map_b9fa23175e6c4774b3cb06191bb89c2d = L.map(
+                "map_b9fa23175e6c4774b3cb06191bb89c2d",
+                {
+                    center: [0.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a219380b7a4c4c73bc807c6e58e9e23f = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b9fa23175e6c4774b3cb06191bb89c2d);
+        
+    
+            var circle_2c1758ce3e3447e790e1f16bb37e8e1d = L.circle(
+                [39.7837304, -100.4458825],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1622670, "stroke": true, "weight": 3}
+            ).addTo(map_b9fa23175e6c4774b3cb06191bb89c2d);
+        
+    
+        var popup_322eb234cc57441796abb1d3f34cf26e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3b5a5593fb164932bf4fd911dc3c0a29 = $(`<div id="html_3b5a5593fb164932bf4fd911dc3c0a29" style="width: 100.0%; height: 100.0%;">Deaths are 97087</div>`)[0];
+            popup_322eb234cc57441796abb1d3f34cf26e.setContent(html_3b5a5593fb164932bf4fd911dc3c0a29);
+        
+
+        circle_2c1758ce3e3447e790e1f16bb37e8e1d.bindPopup(popup_322eb234cc57441796abb1d3f34cf26e)
+        ;
+
+        
+    
+    
+            var circle_5da3f198c968416dbc0bc04def0a58aa = L.circle(
+                [-10.3333333, -53.2],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 347398, "stroke": true, "weight": 3}
+            ).addTo(map_b9fa23175e6c4774b3cb06191bb89c2d);
+        
+    
+        var popup_6f03c7e20ca5417e90d5b4096e2be07a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81c7ac153bd34ebd9fb1f8482ce3449f = $(`<div id="html_81c7ac153bd34ebd9fb1f8482ce3449f" style="width: 100.0%; height: 100.0%;">Deaths are 22013</div>`)[0];
+            popup_6f03c7e20ca5417e90d5b4096e2be07a.setContent(html_81c7ac153bd34ebd9fb1f8482ce3449f);
+        
+
+        circle_5da3f198c968416dbc0bc04def0a58aa.bindPopup(popup_6f03c7e20ca5417e90d5b4096e2be07a)
+        ;
+
+        
+    
+    
+            var circle_ac77ec5b9cc14f7fb019dc5421fc46ed = L.circle(
+                [64.6863136, 97.7453061],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 335882, "stroke": true, "weight": 3}
+            ).addTo(map_b9fa23175e6c4774b3cb06191bb89c2d);
+        
+    
+        var popup_e85bfb66bcfc4c1f84fd3362e374aaf4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4218d4bd7cc74098968fdd8c4fa28795 = $(`<div id="html_4218d4bd7cc74098968fdd8c4fa28795" style="width: 100.0%; height: 100.0%;">Deaths are 3388</div>`)[0];
+            popup_e85bfb66bcfc4c1f84fd3362e374aaf4.setContent(html_4218d4bd7cc74098968fdd8c4fa28795);
+        
+
+        circle_ac77ec5b9cc14f7fb019dc5421fc46ed.bindPopup(popup_e85bfb66bcfc4c1f84fd3362e374aaf4)
+        ;
+
+        
+    
+    
+            var circle_39293c54bd794829b2e054a8782d5e95 = L.circle(
+                [54.7023545, -3.2765753],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 257154, "stroke": true, "weight": 3}
+            ).addTo(map_b9fa23175e6c4774b3cb06191bb89c2d);
+        
+    
+        var popup_42facffe2b7b47db9d74f658aac98654 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_778a88394ca64089afad777a0fb242df = $(`<div id="html_778a88394ca64089afad777a0fb242df" style="width: 100.0%; height: 100.0%;">Deaths are 36675</div>`)[0];
+            popup_42facffe2b7b47db9d74f658aac98654.setContent(html_778a88394ca64089afad777a0fb242df);
+        
+
+        circle_39293c54bd794829b2e054a8782d5e95.bindPopup(popup_42facffe2b7b47db9d74f658aac98654)
+        ;
+
+        
+    
+    
+            var circle_78abb2850463415899f0221a3049c737 = L.circle(
+                [39.3262345, -4.8380649],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 235772, "stroke": true, "weight": 3}
+            ).addTo(map_b9fa23175e6c4774b3cb06191bb89c2d);
+        
+    
+        var popup_07b012d287054a1e9db35f65340480ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7d2d058c30a54d1d9f6b3e9518eb67ed = $(`<div id="html_7d2d058c30a54d1d9f6b3e9518eb67ed" style="width: 100.0%; height: 100.0%;">Deaths are 28752</div>`)[0];
+            popup_07b012d287054a1e9db35f65340480ad.setContent(html_7d2d058c30a54d1d9f6b3e9518eb67ed);
+        
+
+        circle_78abb2850463415899f0221a3049c737.bindPopup(popup_07b012d287054a1e9db35f65340480ad)
+        ;
+
+        
+    
+    
+            var circle_3f69ccd94cea488da55e19b69f4c4873 = L.circle(
+                [42.6384261, 12.674297],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 229327, "stroke": true, "weight": 3}
+            ).addTo(map_b9fa23175e6c4774b3cb06191bb89c2d);
+        
+    
+        var popup_509a9e9d046047e29acd21baabd6962e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31519125c8984a1489f6821d446b2932 = $(`<div id="html_31519125c8984a1489f6821d446b2932" style="width: 100.0%; height: 100.0%;">Deaths are 32735</div>`)[0];
+            popup_509a9e9d046047e29acd21baabd6962e.setContent(html_31519125c8984a1489f6821d446b2932);
+        
+
+        circle_3f69ccd94cea488da55e19b69f4c4873.bindPopup(popup_509a9e9d046047e29acd21baabd6962e)
+        ;
+
+        
+    
+    
+            var circle_98200109a70148829182fecd90278f36 = L.circle(
+                [-1.2765895, -78.4754667],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 155686, "stroke": true, "weight": 3}
+            ).addTo(map_b9fa23175e6c4774b3cb06191bb89c2d);
+        
+    
+        var popup_d89aacb1076d4fb89e1c6ae6c5e3fc54 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_772d19660f35487a9e322337806a9931 = $(`<div id="html_772d19660f35487a9e322337806a9931" style="width: 100.0%; height: 100.0%;">Deaths are 4308</div>`)[0];
+            popup_d89aacb1076d4fb89e1c6ae6c5e3fc54.setContent(html_772d19660f35487a9e322337806a9931);
+        
+
+        circle_98200109a70148829182fecd90278f36.bindPopup(popup_d89aacb1076d4fb89e1c6ae6c5e3fc54)
+        ;
+
+        
+    
+    
+            var circle_18622a1db20f49c089b359db5cad8e5e = L.circle(
+                [46.603354, 1.8883335],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 144806, "stroke": true, "weight": 3}
+            ).addTo(map_b9fa23175e6c4774b3cb06191bb89c2d);
+        
+    
+        var popup_7b79ded41b1a4dffbed43280d705ea45 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f3b37613e584e089a63dfd7d6977b8e = $(`<div id="html_7f3b37613e584e089a63dfd7d6977b8e" style="width: 100.0%; height: 100.0%;">Deaths are 28332</div>`)[0];
+            popup_7b79ded41b1a4dffbed43280d705ea45.setContent(html_7f3b37613e584e089a63dfd7d6977b8e);
+        
+
+        circle_18622a1db20f49c089b359db5cad8e5e.bindPopup(popup_7b79ded41b1a4dffbed43280d705ea45)
+        ;
+
+        
+    
+    
+            var circle_39f68f50fded415f83b94963657e8996 = L.circle(
+                [32.6475314, 54.5643516],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 133521, "stroke": true, "weight": 3}
+            ).addTo(map_b9fa23175e6c4774b3cb06191bb89c2d);
+        
+    
+        var popup_ce2e57b07efa42bc94d39e041d0217bb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dafd42cdd47042f19d075f4d8dbb2001 = $(`<div id="html_dafd42cdd47042f19d075f4d8dbb2001" style="width: 100.0%; height: 100.0%;">Deaths are 7359</div>`)[0];
+            popup_ce2e57b07efa42bc94d39e041d0217bb.setContent(html_dafd42cdd47042f19d075f4d8dbb2001);
+        
+
+        circle_39f68f50fded415f83b94963657e8996.bindPopup(popup_ce2e57b07efa42bc94d39e041d0217bb)
+        ;
+
+        
+    
+    
+            var circle_0319b99a1c4d43a79fc8ea9167d267de = L.circle(
+                [-6.8699697, -75.0458515],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 115754, "stroke": true, "weight": 3}
+            ).addTo(map_b9fa23175e6c4774b3cb06191bb89c2d);
+        
+    
+        var popup_59e1cdbebacf446ca48a52b2cc6a78d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b76d5bc04db34036bbc64192d889bb80 = $(`<div id="html_b76d5bc04db34036bbc64192d889bb80" style="width: 100.0%; height: 100.0%;">Deaths are 3373</div>`)[0];
+            popup_59e1cdbebacf446ca48a52b2cc6a78d4.setContent(html_b76d5bc04db34036bbc64192d889bb80);
+        
+
+        circle_0319b99a1c4d43a79fc8ea9167d267de.bindPopup(popup_59e1cdbebacf446ca48a52b2cc6a78d4)
+        ;
+
+        
+    
+</script>
